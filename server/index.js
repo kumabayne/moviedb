@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 app.get('/api', (req, res) => {
-  res.json({ message: 'Hello from server!' });
+  res.json({ message: 'Testing automatic deployment!' });
 });
 
 app.get('*', (req, res) => {
