@@ -1,0 +1,16 @@
+.Feature {
+  grid-column: span 3;
+  position: relative;
+
+  &-backdrop {
+    border-radius: 8px;
+  }
+
+  &-title {
+    bottom: 16px;
+    color: #F5F0F0;
+    left: 16px;
+    margin: 0;
+    position: absolute;
+  }
+}
